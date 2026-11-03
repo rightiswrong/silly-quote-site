@@ -1,0 +1,5 @@
+backend/quotes.db
+__pycache__/
+node_modules/
+frontend/dist/
+*.log

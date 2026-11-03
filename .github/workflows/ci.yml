@@ -37,4 +37,4 @@ jobs:
           pip install -r backend/requirements.txt
       - name: Check Backend Syntax
         run: |
-          python -m py_compile backend/main.py backend/database.py backend/seed.py
+          python -m py_compile backend/main.py backend/store.py
